@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^product/category/(.*)/(.*)$ index.php?controller=product&category_product_id=$1
+RewriteRule ^trang-chu$ index.php
+RewriteRule ^tin-tuc$ index.php?controller=news
+RewriteRule ^gio-hang$ index.php?controller=cart
+RewriteRule ^product/detail/(.*)/(.*)$ index.php?controller=product_detail&id=$1
+RewriteRule ^news/detail/(.*)/(.*)$ index.php?controller=news_detail&id=$1
